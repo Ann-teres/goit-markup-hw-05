@@ -592,6 +592,10 @@ address {
   position: fixed;
   top: 0;
   background-color: rgba(30, 24, 0, 0.562);
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
 }
 .modal {
   border-radius: 4px;
@@ -602,10 +606,6 @@ address {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-top: 24px;
-  padding-right: 24px;
-  padding-bottom: 24px;
-  padding-left: 24px;
 }
 .modal-open {
   border-radius: 100%;
