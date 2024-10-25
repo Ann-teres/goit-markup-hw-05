@@ -654,6 +654,7 @@ address {
   padding-left: 16px;
   border-radius: 4px;
   color: #ffffff;
+  margin-bottom: 8px;
 }
 .input-button {
   display: flex;
