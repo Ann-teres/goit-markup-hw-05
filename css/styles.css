@@ -613,7 +613,8 @@ address {
   margin-left: auto;
   margin-bottom: 24px;
   position: absolute;
-  left: 50%;
+  left: 24px;
+  top: 24px;
 }
 .cross {
   width: 8;
