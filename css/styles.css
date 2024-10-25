@@ -602,6 +602,10 @@ address {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
 }
 .modal-open {
   border-radius: 100%;
@@ -630,7 +634,7 @@ address {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.address-input {
+.modal-input {
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
