@@ -619,6 +619,7 @@ address {
 .cross {
   width: 8;
   height: 8;
+  text-align: left;
 }
 .message {
   font-weight: 500;
