@@ -704,6 +704,7 @@ address {
 }
 .input-container {
   position: relative;
+  margin-bottom: 8px;
 }
 .taxtarea-text {
   font-weight: 400;
@@ -725,9 +726,11 @@ address {
 .lable {
   font-weight: 400;
   font-size: 12px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
 }
 .input-container {
   font-weight: 400;
