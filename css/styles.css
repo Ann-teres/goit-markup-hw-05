@@ -658,12 +658,14 @@ address {
 }
 .input-button {
   background-color: #e7e9fc;
-
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
