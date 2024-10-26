@@ -643,7 +643,7 @@ address {
   margin-bottom: 16px;
 }
 .modal-input {
-  border: 1px solid #ffffff;
+  border: 1px solid #2e2f42;
   width: 264px;
   height: 40px;
   background-color: transparent;
@@ -652,7 +652,7 @@ address {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #2e2f42;
-  padding-left: 16px;
+  padding-left: 38px;
   border-radius: 4px;
   margin-bottom: 8px;
 }
