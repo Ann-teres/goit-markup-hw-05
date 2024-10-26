@@ -631,11 +631,16 @@ address {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cross {
-  width: 8;
-  height: 8;
-  text-align: left;
+.modal-open:hover .modal-open:focus {
+  background-color: #404bbf;
+  border: none;
+}
+.svg-pic {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #ffffff;
 }
 .message {
   font-weight: 500;
