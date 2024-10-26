@@ -736,6 +736,7 @@ address {
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+  width: 100%;
 }
 .inblock {
   position: relative;
