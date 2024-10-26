@@ -586,6 +586,7 @@ address {
 .icon-social-media-footer {
   fill: #f4f4fd;
 }
+/* -------new page menu-------  */
 .backdrop {
   width: 100%;
   height: 100%;
@@ -656,10 +657,12 @@ address {
   margin-bottom: 8px;
 }
 .input-button {
+  border-radius: 50%;
+  background-color: #e7e9fc;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
