@@ -742,6 +742,12 @@ address {
 .inblock {
   position: relative;
 }
+.drop-down {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
 .input-container {
   font-weight: 400;
   font-size: 12px;
@@ -752,6 +758,10 @@ address {
   width: 360px;
 }
 .span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
@@ -760,6 +770,13 @@ address {
   line-height: 133%;
   text-decoration: underline;
   text-decoration-skip-ink: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 .input:chacked + .lable > .span {
   background-color: #fff;
@@ -777,8 +794,7 @@ address {
   border-radius: 4px;
   background-color: transparent;
   border-color: #4d5ae5;
-  padding-right: 16px;
-  padding-top: 8px;
+  padding: 8px 16px;
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
