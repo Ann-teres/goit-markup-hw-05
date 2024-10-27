@@ -532,7 +532,7 @@
           </div>
 
           <div class="input-container">
-            <label for="user-name" class="label"> Comment </label>
+            <label for="user-comment" class="label"> Comment </label>
             <textarea
               name="user-comment"
               id="user-comment"
@@ -543,20 +543,24 @@
          Text input</textarea
             >
           </div>
-          <div>
+          <div class="checkbox-div">
             <input
               type="checkbox"
               value="true"
               name="user-privacy"
-              id=""
+              id="user-privacy"
               class="visually-hidden"
             />
-            <label for="" class="lable drop-down"
+            <label for="user-privacy" class="lable drop-down"
               >I accept the terms and conditions of the
               <span class="span">
-                Privacy Policy
                 <svg width="10" height="8">
-                  <use href="./images/icons.svg#icon-Checkbox"></use>
+                  <use
+                    href="./images/icons.svg#icon-Checkbox"
+                    class="checkbox-color"
+                  >
+                    Privacy Policy
+                  </use>
                 </svg>
               </span>
             </label>

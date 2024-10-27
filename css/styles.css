@@ -756,6 +756,7 @@ address {
   color: #8e8f99;
   margin-bottom: 8px;
   width: 360px;
+  margin-bottom: 16px;
 }
 .span {
   width: 16px;
@@ -814,4 +815,10 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.checkbox-div {
+  margin-bottom: 24px;
+}
+.checkbox-color {
+  color: #4d5ae5;
 }
