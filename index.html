@@ -496,12 +496,12 @@
                 name="user-name"
                 class="modal-input"
               />
-              <svg
-                href="./images/person-black.svg"
-                class="svg-pic"
-                height="24"
-                width="18"
-              ></svg>
+              <svg>
+                <use>
+                  href="./images/person-black.svg" class="svg-pic" height="24"
+                  width="18"
+                </use>
+              </svg>
             </div>
           </div>
 
@@ -513,14 +513,13 @@
               name="user-name"
               class="modal-input"
             />
-            <svg
-              href="./images/phone-black.svg"
-              class="svg-pic"
-              height="24"
-              width="18"
-            ></svg>
+            <svg>
+              <use>
+                href="./images/phone-black.svg" class="svg-pic" height="24"
+                width="18"
+              </use>
+            </svg>
           </div>
-
           <div class="input-container">
             <lable for="user-name" class="lable"> Email</lable>
             <input
@@ -529,8 +528,11 @@
               name="user-name"
               class="modal-input"
             />
-            <svg href="./images/people-office.jpg" class="svg-pic" height="24">
-              <use></use>
+            <svg>
+              <use>
+                href="./images/people-office.jpg" class="svg-pic" height="24"
+                width="18"
+              </use>
             </svg>
           </div>
 
@@ -538,6 +540,7 @@
             <label for="user-name" class="lable"> Comment </label>
             <textarea
               name="comment"
+              id="user-comment"
               placeholder="Text input"
               row="5"
               class="textarea-lable"
@@ -546,8 +549,14 @@
             >
           </div>
           <div>
-            <input type="checkbox" name="" id="" />
-            <label for="" class="lable"
+            <input
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              id=""
+              class="visually-hidden"
+            />
+            <label for="" class="lable drop-down"
               >I accept the terms and conditions of the
               <span class="span">
                 Privacy Policy

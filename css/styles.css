@@ -738,7 +738,12 @@ address {
   display: block;
   margin-bottom: 4px;
   width: 100%;
+  display: block;
 }
+.drop-down {
+  margin-bottom: 24px;
+}
+
 .inblock {
   position: relative;
 }
