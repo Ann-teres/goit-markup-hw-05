@@ -4,6 +4,46 @@
     {
       "icon": {
         "paths": [
+          "M128 32h768c53.019 0 96 42.981 96 96v768c0 53.019-42.981 96-96 96h-768c-53.019 0-96-42.981-96-96v-768c0-53.019 42.981-96 96-96z"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "strokeLinejoin": "miter",
+            "strokeLinecap": "butt",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 64
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Checkbox"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "strokeLinejoin": "miter",
+          "strokeLinecap": "butt",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 64
+        }
+      ],
+      "properties": {
+        "order": 19,
+        "id": 0,
+        "name": "Checkbox",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
           "M1024 103.131l-103.131-103.131-408.869 408.869-408.869-408.869-103.131 103.131 408.869 408.869-408.869 408.869 103.131 103.131 408.869-408.869 408.869 408.869 103.131-103.131-408.869-408.869 408.869-408.869z"
         ],
         "attrs": [
@@ -20,12 +60,12 @@
         {}
       ],
       "properties": {
-        "order": 13,
+        "order": 18,
         "id": 0,
         "name": "closer",
         "prevSize": 32
       },
-      "setIdx": 0,
+      "setIdx": 1,
       "setId": 3,
       "iconIdx": 0
     },
@@ -49,12 +89,12 @@
         {}
       ],
       "properties": {
-        "order": 12,
+        "order": 17,
         "id": 3,
         "name": "email",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 0
     },
@@ -74,12 +114,12 @@
       },
       "attrs": [],
       "properties": {
-        "order": 11,
+        "order": 16,
         "id": 2,
         "name": "person",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 1
     },
@@ -103,12 +143,12 @@
         {}
       ],
       "properties": {
-        "order": 10,
+        "order": 15,
         "id": 1,
         "name": "phone",
         "prevSize": 32
       },
-      "setIdx": 1,
+      "setIdx": 2,
       "setId": 2,
       "iconIdx": 2
     }
