@@ -701,8 +701,8 @@ address {
   background-color: #404bbf;
   border: none;
 }
-.svg-pic:hover > svg,
-.svg-pic:focus > svg {
+.modal-button > svg,
+.modal-button > svg {
   fill: #ffffff;
 }
 .svg-class {
