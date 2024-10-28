@@ -701,8 +701,8 @@ address {
   background-color: #404bbf;
   border: none;
 }
-.svg-pic > svg,
-.svg-pic > svg {
+.modal-button:hover + svg-pic,
+.modal-button:focus + svg-pic {
   fill: #ffffff;
 }
 .svg-class {
@@ -759,7 +759,6 @@ address {
   border-color: #4d5ae5;
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 .lable-name {
   font-size: 12px;
