@@ -631,6 +631,9 @@ address {
 .for-email {
   gap: 24px;
 }
+.footer-button-svg {
+  margin-left: 16px;
+}
 /* -------new page menu-------  */
 .backdrop {
   width: 100%;
