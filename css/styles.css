@@ -627,6 +627,7 @@ address {
 }
 .email-form {
   display: flex;
+  gap: 24px;
 }
 .for-email {
   gap: 24px;
