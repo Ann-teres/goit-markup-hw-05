@@ -875,6 +875,10 @@ address {
 .textarea-label:focus {
   border-color: #4d5ae5;
 }
+.label {
+  display: block;
+  margin-bottom: 4px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -904,5 +908,5 @@ address {
 .visually-hidden:checked + .drop-down span {
   background-color: #404bbf;
   border: none;
-  /* fill: #f4f4fd; */
+  fill: #f4f4fd;
 }
