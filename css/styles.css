@@ -692,6 +692,7 @@ address {
   border-color: #4d5ae5;
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .lable-name {
   font-size: 12px;
@@ -784,6 +785,7 @@ address {
   border: none;
   fill: #3f51b5;
 }
+
 .textarea-label {
   font-weight: 400;
   font-size: 12px;
@@ -791,7 +793,6 @@ address {
   letter-spacing: 0.04em;
   color: #8e8f99;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   border-color: #4d5ae5;
@@ -819,6 +820,6 @@ address {
 .checkbox-div {
   margin-bottom: 24px;
 }
-.checkbox-color {
+.checkbox-icon {
   color: #4d5ae5;
 }
