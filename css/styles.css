@@ -721,7 +721,6 @@ address {
 }
 .modal-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
-
   width: 100%;
   height: 40px;
   background-color: transparent;
@@ -779,6 +778,9 @@ address {
 .input-container {
   position: relative;
   margin-bottom: 8px;
+}
+.input-container-for {
+  margin-bottom: 16px;
 }
 .taxtarea-text {
   font-weight: 400;
