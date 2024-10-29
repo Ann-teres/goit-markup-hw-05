@@ -876,7 +876,11 @@ address {
 }
 .label {
   display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   margin-bottom: 4px;
+  color: #8e8f99;
 }
 .visually-hidden {
   position: absolute;
