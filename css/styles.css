@@ -702,8 +702,8 @@ address {
   border: none;
 }
 
-.modal-button:hover > svg-class,
-.modal-button:focus > svg-class {
+.modal-input:hover > svg-pic,
+.modal-input:focus > svg-pic {
   fill: #ffffff;
 }
 .svg-class {
