@@ -702,8 +702,8 @@ address {
   border: none;
 }
 
-.modal-input:hover + href-img,
-.modal-input:focus + href-img {
+.modal-button:hover + href-img,
+.modal-button:focus + href-img {
   fill: #ffffff;
 }
 .svg-class {
