@@ -801,7 +801,7 @@ address {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.svg-pic:focus {
+.svg-pic:hover {
   color: #4d5ae5;
 }
 .svg-class > mudal- .label {
