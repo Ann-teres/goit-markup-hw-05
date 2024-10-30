@@ -702,8 +702,8 @@ address {
   border: none;
 }
 
-.modal-button:hover > .svg-class,
-.modal-button:focus > .svg-class {
+.modal-button:hover > .svg-pic,
+.modal-button:focus > .svg-pic {
   fill: #ffffff;
 }
 .svg-class {
@@ -801,9 +801,7 @@ address {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.svg-pic {
-  fill: #4d5ae5;
-}
+
 .svg-class > mudal- .label {
   font-weight: 400;
   font-size: 12px;
